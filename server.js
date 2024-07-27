@@ -29,7 +29,6 @@ app.get('/api/whois', async (req, res) => {
         
         res.status(200).json(response.data);
     } catch (error) {
-        console.error('Error fetching WHOIS data:', error);
         res.status(500).json({ error: 'Failed to fetch WHOIS data' });
     }
 });
