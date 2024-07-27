@@ -12,7 +12,7 @@ CD to the folder and run
 npm install
 ```
 
-Create an .env file to the root folder and inser
+Create an .env file to the root folder and insert
 ```bash
 API_KEY=<api key>
 ```
